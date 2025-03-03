@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let result = console.log("javascript"+ 5);
+        // kết quả : javascript5
+        // giải thích : toán tử + thực hiện kết nỗi chuỗi
+
+        let result2 = console.log("javascript" - 1);
+        // kết quả :NaN
+        // giải thích : toán tử chỉ thực hiện với số
+
+        let result3 = console.log("3" + 2);
+        // kết quả :32
+        // giải thích : kết nối chuỗi (3 là chuỗi giữ nguyên)
+
+        let result4 =console.log ("5" - 4);
+        // kết quả :1
+        // giải thích :toán tử trừ bình thường
+
+        let result5 =console.log(  isNaN( "123") );
+        // kết quả :false
+        // giải thích :"123" là chuỗi khi đổi thành số là 123 không phải NaN
+
+        let resul6 =console.log( isNaN("hello"));
+        // kết quả :true
+        // giải thích : không thể chuyển thành số nên đúng
+
+        let result7 =console.log( Number.isNaN("123"));
+        // giải thích : 
+
+        let result8 =console.log( Number.isNaN(NaN));
+        // kết quả :true
+        // giải thích :
+    </script>
+</body>
+</html>
